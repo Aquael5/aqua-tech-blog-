@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap');
+
+
+li, a, button {
+  font-size: 18px;
+  color: #fff;
+  text-decoration: none;
+}
+
+header {
+  display: flex;
+  /* justify-content: space-between; */
+  justify-content: flex-end;
+  align-items: center;
+  padding: 20px 15px;
+  background-color: #202022;
+}
+
+.logotipo {
+  text-align: center;
+  background: linear-gradient(to left, #6041b2, #ab60c5);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  display: inline-block;
+  color: #6040b2;
+  font-size: 35px;
+  font-weight: bold;
+  margin-right:  auto;
+}
+
+.nav-links {
+  list-style: none;
+}
+
+.nav-links li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+
+.nav-links li a:hover {
+  color: #6090d7;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: #4771b0;
+  border: none;
+  border-radius: 60px;
+  cursor: pointer;
+  margin-left: 15px;
+}
+
+button:hover {
+  background-color: #39619c;
+}
+
+@media  (max-width: 800px){
+  li, a, button {
+    font-size: 12px;
+  }
+  .logotipo {
+      font-size: 35px;
+      font-weight: bold;
+    }
+}
+
+
+body {
+   background: -webkit-linear-gradient(left, #6041b2, #ab60c5);
+   background: -moz-linear-gradient(left, #6041b2, #ab60c5);
+   background: -ms-linear-gradient(left, #6041b2, #ab60c5);
+   background: -o-linear-gradient(left, #6041b2, #ab60c5);
+   background: linear-gradient(to right, #6041b2, #ab60c5);
+  background-color: #2d2f34;
+  font-family: "Poppins";
+  border-sizing: border-box;
+  margin: 2px;
+  padding: 0;
+}
+
+img {
+  width: 100%;
+  text-align: center;
+}
+
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-right: 10px; /* Espaçamento entre os itens */
+    
+}
+
+nav ul li:last-child {
+    margin-right: 0; /* Remove o espaçamento do último item */
+}
+
+nav,h1,h2,p,footer {
+  text-align: center
+}
+
+nav ul li a {
+  text-decoration: none;
+  background: linear-gradient(to left, #6041b2, #ab60c5);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+footer img {
+    width: 40px;
+    height: 40px;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+}
+
+footer a {
+    margin: 20px;
+    text-align: center;
+    text-decoration: none;
+}
+
+footer p {
+    margin-top: 2px;
+}
+
+footer a {
+    color: #000; /* Cor do texto dos links */
+    font-family: Arial, sans-serif; /* Fonte dos links */
+    font-size: 16px; /* Tamanho da fonte dos links */
+    font-weight: normal; /* Peso da fonte dos links */
+    text-decoration: none; /* Decoração do texto dos links (sublinhado, none, etc.) */
+    margin: 0 10px; /* Margem dos links */
+  
+}
+
+
+
+*#no-background {
+   border: none;
+  margin: 1em auto;
+  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSc02uRNLwjkSgM6hFtu6XybTVUGTuH4aRrww&usqp=CAU") transparent no-repeat;
+  background-size: 100%;
+  background-color: transparent;
+   mix-blend-mode: multiply;
+}
+
+
+
+
+
